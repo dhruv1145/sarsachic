@@ -10,7 +10,8 @@ export default function App() {
       <Header />
       <Routes>
         <Route element={<Hero />} index />
-        <Route element={<Login />} path="/login" />
+        <Route element={<Login />} path="login" />
+        <Route element={<SignUp/>} path="signup"/>
       </Routes>
     </BrowserRouter>
   );

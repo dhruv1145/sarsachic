@@ -61,7 +61,7 @@ function SignUp() {
           <div class="dont-have-an-container">
             <span class="dont-have-an">Alreeady have an account?</span>
             <span class="span"> </span>
-            <Link to="/" class="sign-up-fo">
+            <Link to="/login" class="sign-up-fo">
               Login here!
             </Link>
           </div>

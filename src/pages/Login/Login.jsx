@@ -52,7 +52,7 @@ function Login() {
           <div class="dont-have-an-container">
             <span class="dont-have-an">Don’t have an account?</span>
             <span class="span"> </span>
-            <Link to="signup" class="sign-up-fo">
+            <Link to="/signup" class="sign-up-fo">
               Sign up fo free!
             </Link>
           </div>
