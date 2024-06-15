@@ -116,22 +116,14 @@
 }
 
 .dont-have-an-account-sign-up-wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  margin-left: 30px;
+  margin-left: 90px;
   margin-top: 10px;
-  padding: 0 49px 0 50px;
 }
 
 .dont-have-an-container {
-  position: relative;
   font-size: 10px;
   letter-spacing: 0.03em;
   font-weight: 500;
-  font-family: var(--font-poppins);
-  text-align: center;
-  z-index: 1;
 }
 
 .sign-up-fo {
@@ -159,4 +151,25 @@
   overflow: hidden;
   background-size: cover;
   z-index: 1;
+}
+
+@media screen and (max-width: 1068px) {
+  .text {
+    font-size: 10px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 10px;
+  }
+  .Google-button,
+  .button {
+    font-size: 10px;
+  }
+
+  .dont-have-an-account-sign-up-wrapper {
+    margin-left: 0;
+  }
 }
