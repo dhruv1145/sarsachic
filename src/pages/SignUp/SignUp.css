@@ -59,14 +59,14 @@
   gap: 0.5rem;
 }
 
-.wrapper {
+.sign-in-wrapper {
   display: flex;
   align-items: center;
   gap: 6rem;
   font-size: 12px;
 }
 
-.remember-checkbox-wrapper {
+.sign-remember-checkbox-wrapper {
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -118,29 +118,20 @@
   height: 18px;
 }
 
-.dont-have-an-account-sign-up-wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  margin-left: 30px;
+.dont-have-an-account-log-in-wrapper {
   margin-top: 10px;
-  padding: 0 49px 0 50px;
+  margin-left: 90px;
 }
 
-.dont-have-an-container {
-  position: relative;
+.login-dont-have-an-container {
   font-size: 10px;
   letter-spacing: 0.03em;
   font-weight: 500;
-  font-family: var(--font-poppins);
-  text-align: center;
-  z-index: 1;
 }
 
 .sign-up-fo {
   color: #ea454c;
 }
-
 .sign-cover-img {
   position: relative;
   min-width: 351px;
@@ -156,5 +147,20 @@
 @media screen and (max-width: 1068px) {
   .sign-text {
     font-size: 10px;
+  }
+
+  .sign-in-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 10px;
+  }
+  .Google-button,
+  .sign-in-button {
+    font-size: 10px;
+  }
+
+  .dont-have-an-account-log-in-wrapper {
+    margin-left: 0;
   }
 }

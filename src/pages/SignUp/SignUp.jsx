@@ -39,13 +39,13 @@ function SignUp() {
           </div>
         </div>
 
-        <div className="wrapper">
-          <div class="remember-checkbox-wrapper">
-            <input class="remember-checkbox" type="checkbox" />
+        <div className="sign-in-wrapper">
+          <div class="sign-remember-checkbox-wrapper">
+            <input class="sign-remember-checkbox" type="checkbox" />
             <span>Remember Me</span>
           </div>
 
-          <div class="forgot-password">Forgot password?</div>
+          <div class="sign-forgot-password">Forgot password?</div>
         </div>
 
         <div className="button">
@@ -57,9 +57,9 @@ function SignUp() {
           </button>
         </div>
 
-        <div class="dont-have-an-account-sign-up-wrapper">
-          <div class="dont-have-an-container">
-            <span class="dont-have-an">Alreeady have an account?</span>
+        <div class="dont-have-an-account-log-in-wrapper">
+          <div class="login-dont-have-an-container">
+            <span class="login-dont-have-an">Alreeady have an account?</span>
             <span class="span"> </span>
             <Link to="/login" class="sign-up-fo">
               Login here!
