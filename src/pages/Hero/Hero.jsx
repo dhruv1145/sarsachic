@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import cover from "../../images/model2.png";
 import ProductPage from "../ProductPage/ProductPage";
 import "./Hero.css";
+import ProductBar from "../../components/ProductBar/ProductBar";
 
 const Hero = () => {
   return (
@@ -24,6 +25,7 @@ const Hero = () => {
           <span className="logoText">SARSACHIC</span>
         </div>
       </div>
+      <ProductBar />
       <ProductPage />
     </div>
   );
