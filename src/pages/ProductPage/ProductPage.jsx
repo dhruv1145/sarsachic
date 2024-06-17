@@ -46,6 +46,9 @@ function ProductPage() {
           <img src={image2} alt="" />
         </div>
       </div>
+      <div class="explore-more1">
+        <button>EXPLORE MORE</button>
+      </div>
     </div>
   );
 }

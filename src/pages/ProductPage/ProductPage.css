@@ -1,5 +1,8 @@
 .page-wrapper {
-  height: 100%;
+  height: 200%;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #f3f5fa;
 }
 
 .allproducts-container {
@@ -37,6 +40,22 @@
   margin-bottom: 20px;
 }
 
+.explore-more1 {
+  width: 100%;
+}
+
+.explore-more1 button {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 0.8rem 3rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-top: 5%;
+  margin-bottom: 10px;
+  left: 40%;
+}
+
 @media screen and (max-width: 600px) {
   .fixed-section {
     display: none;
@@ -48,6 +67,10 @@
 
   .allproducts-container {
     grid-template-columns: auto auto;
+  }
+
+  .explore-more1 button {
+    left: 30%;
   }
 }
 
