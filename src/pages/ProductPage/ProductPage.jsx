@@ -31,11 +31,13 @@ function ProductPage() {
           <div className="products">
             <Products
               img1={image1}
+              img2={demonimg}
               price="RS. 699"
               name="Goku Oversized Tshirt"
             />
             <Products
               img1={image2}
+              img2={hoverimg}
               price="RS. 699"
               name="Never Fear oversized Tshirt"
             />

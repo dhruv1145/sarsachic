@@ -49,6 +49,8 @@
 .afterimage {
   width: 120%;
   height: 100%;
+  border: none;
+  border-radius: 12px;
 }
 
 .afterimage {
