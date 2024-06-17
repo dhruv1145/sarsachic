@@ -10,7 +10,7 @@ function ProductPage() {
   return (
     <div className="page-wrapper">
       <div className="page-title">
-        <h1>Products</h1>
+        <h1>PRODUCTS</h1>
       </div>
       <div className="allproducts-container">
         <div className="scroll-section">

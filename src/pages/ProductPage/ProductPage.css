@@ -27,7 +27,8 @@
 .page-title {
   text-align: center;
   padding: 20px 20px;
-  margin-bottom: 30px;
+  font-size: 32px;
+  margin-top: 20px;
 }
 
 .fixed-section img {
@@ -58,6 +59,10 @@
   left: 40%;
 }
 
+.explore-more1 button:hover {
+  background-color: rgb(40, 39, 39);
+}
+
 @media screen and (max-width: 600px) {
   .fixed-section {
     display: none;
@@ -73,6 +78,10 @@
 
   .explore-more1 button {
     left: 30%;
+  }
+
+  .page-title {
+    font-size: 22px;
   }
 }
 
