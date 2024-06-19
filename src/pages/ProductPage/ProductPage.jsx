@@ -46,6 +46,7 @@ function ProductPage() {
 
         <div className="fixed-section">
           <img src={image2} alt="" />
+          <button className="shop-button">SHOP NOW</button>
         </div>
       </div>
       <div class="explore-more1">
