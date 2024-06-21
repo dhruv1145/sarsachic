@@ -1,6 +1,6 @@
 // src/Footer.js
-import React from 'react';
-import './footer.css'; // Import the CSS file
+import React from "react";
+import "./Footer.css"; // Import the CSS file
 import { FiMail } from "react-icons/fi";
 import { FaRegClock } from "react-icons/fa";
 
@@ -21,15 +21,27 @@ const Footer = () => {
       </div>
       <div className="footer-section">
         <h1>SHOP</h1>
-        <p><a href="#">WOMEN</a></p>
-        <p><a href="#">MEN</a></p>
-        <p><a href="#">ALL</a></p>
+        <p>
+          <a href="#">WOMEN</a>
+        </p>
+        <p>
+          <a href="#">MEN</a>
+        </p>
+        <p>
+          <a href="#">ALL</a>
+        </p>
       </div>
       <div className="footer-section">
         <h1>SUPPORT</h1>
-        <p><a href="#">Privacy policy</a></p>
-        <p><a href="#">Return</a></p>
-        <p><a href="#">Contact us</a></p>
+        <p>
+          <a href="#">Privacy policy</a>
+        </p>
+        <p>
+          <a href="#">Return</a>
+        </p>
+        <p>
+          <a href="#">Contact us</a>
+        </p>
       </div>
     </div>
   );

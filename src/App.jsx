@@ -4,6 +4,7 @@ import Hero from "./pages/Hero/Hero.jsx";
 import Login from "./pages/Login/Login.jsx";
 import SignUp from "./pages/SignUp/SignUp.jsx";
 import ProductPage from "./pages/ProductPage/ProductPage.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route element={<SignUp />} path="signup" />
         <Route element={<ProductPage />} path="products" />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
