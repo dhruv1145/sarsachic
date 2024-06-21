@@ -3,6 +3,7 @@ import cover from "../../images/model2.png";
 import ProductPage from "../ProductPage/ProductPage";
 import "./Hero.css";
 import ProductBar from "../../components/ProductBar/ProductBar";
+import ShopSections from "../../pages/Shop/ShopSections";
 
 const Hero = () => {
   return (
@@ -27,6 +28,7 @@ const Hero = () => {
       </div>
       <ProductBar />
       <ProductPage />
+      <ShopSections />
     </div>
   );
 };
