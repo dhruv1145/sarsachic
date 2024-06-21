@@ -4,7 +4,7 @@
     justify-content: space-around; /* Ensure equal spacing between sections */
     background-color: #000;
     color: #fff;
-    padding: 20px;
+    padding: 50px;
   }
   
   .footer-section {
@@ -14,12 +14,13 @@
   }
   
   .footer-section h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 10px;
   }
   
   .footer-section p {
     margin: 5px 0;
+    font-size: larger;
     display: flex; /* Use flexbox for proper alignment */
     align-items: center; /* Align items vertically */
     justify-content: center; /* Center items horizontally */
